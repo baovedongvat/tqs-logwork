@@ -44,7 +44,7 @@ def main():
     )
     with c1:
         username = st.text_input("Username", cookie_manager.get('username'), key="username")
-        if st.button("Add"):
+        if st.button("Register User"):
             cookie_manager.set('username', username, max_age=10 * 365 * 24 * 60 * 60) # Expires 10 year
     with c2:
         st.radio(
