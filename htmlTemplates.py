@@ -23,6 +23,18 @@ css = '''
   padding: 0 1.5rem;
   color: #fff;
 }
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 50px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 '''
 
 bot_template = '''
